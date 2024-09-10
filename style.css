@@ -1,0 +1,108 @@
+body{
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*top header*/
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+    
+}
+
+.list{
+    display: flex;
+    text-decoration: underline;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.list a{
+    color: inherit;
+}
+
+#img{
+    height: 50px;
+}
+
+/*mission section one*/
+.sectionOne{
+    background-image: url(Assets/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    border-top: 1px solid seashell;
+    margin-top: 15px; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission{
+    width: 1200px;
+    background-color: black;
+}
+
+/*Tea of the Month Section Two*/
+.sectionTwo{
+    width: 1000px;
+    margin: auto;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imageCard{
+    line-height: 10px;
+}
+
+.imageCard img{
+    height: 200px;
+    width: 300px;
+}
+
+/*Locations Section Three*/
+.sectionThree{
+    background-image: url(Assets/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    align-content: center;
+}
+
+.locationCards{
+    display: inline-flex;
+    margin-top: 15px;
+    gap: 40px;
+}
+
+.card{
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+.card p{
+    line-height: 40px;
+}
+
+/*The tea cozy section four*/
+.sectionFour{
+    height: 200px;
+}
+
+/*Bottom*/
+.bottom{
+    padding: 0px 20px;
+    text-align: left;
+}
